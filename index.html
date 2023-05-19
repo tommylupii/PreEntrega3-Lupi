@@ -5,8 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+
+	<main>
+
+		<div class="container-fluid header">
+
+			<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+				<div class="container-fluid">
+				<!-- Logo -->
+					<a class="navbar-brand" href="index.html">
+						<img src="assets/img/logo.png" alt="logo">
+						La vida del Fútbol
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+									aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+									<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FC4308" class="bi bi-list" viewBox="0 0 16 16">
+										<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+									</svg>
+					</button>
+					<!-- Links -->
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Lionel Messi</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Biografías</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Galería</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Ayudanos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Multimedia -->
+			<div class="multimedia container-fluid pt-5 d-flex align-items-center justify-content-center">
+        <div class="row">
+          <div class="col-12 col-sm-6 d-flex container-fluid ">
+            <iframe class="img-fluid video1" src="https://www.youtube.com/embed/-bS2RhP0w7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+            <img class="img-fluid img_header py-2" src="assets/img/header_img.png" alt="imagen del header">
+          </div>
+					<div>
+						<iframe class="img-fluid video2" src="https://www.youtube.com/embed/4v-rIjHpyEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+        </div>
+      </div>
+    </div>
+
+		<br>
+
+		<!-- Cards -->
+		<div class="row">
+			<div class="col-sm-4 mb-3 mb-sm-0">
+				<div class="card">
+					<img src="assets/img/messi_card.jpg" alt="Lionel Messi">
+					<div class="card-body">
+						<h5 class="card-title">Lionel Messi</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
+						<a href="#" class="btn btn-primary">Ir</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img src="assets/img/maradona_card.jpg" alt="Diego Maradona">
+					<div class="card-body">
+						<h5 class="card-title">Diego Maradona</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
+						<a href="#" class="btn btn-primary">Ir</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img src="assets/img/ronaldo_card.jpg" alt="Cristiano Ronaldo">
+					<div class="card-body">
+						<h5 class="card-title">Cristiano Ronaldo</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
+						<a href="#" class="btn btn-primary">Ir</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
     
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
