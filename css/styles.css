@@ -11,3 +11,15 @@ svg {
     flex-direction: column;
     text-align: center;
 }
+
+.cards{
+    background-color: #0a530a;
+}
+
+.multimedia{
+    background-color: #004e9c;
+}
+
+.messi{
+    background-color: goldenrod;
+}
