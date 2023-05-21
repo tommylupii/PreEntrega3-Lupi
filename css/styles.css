@@ -14,6 +14,7 @@ svg {
 
 .cards{
     background-color: #0a530a;
+    box-sizing: border-box;
 }
 
 .multimedia{
@@ -22,4 +23,71 @@ svg {
 
 .messi{
     background-color: goldenrod;
+}
+
+.footer__images{
+    padding: 1rem;
+}
+
+.footer__logos{
+    height: 50px;
+    width: 50px;
+}
+
+.seccion-cys{
+    border: solid 2px;
+}
+
+.carrera__bg{
+    background-color: #4e832f;
+}
+
+.carrera p:last-of-type{
+    margin-bottom: 0;
+}
+
+.carrera img, iframe{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.trofeos__bg{
+    background-color: #169ce9;
+}
+
+.trofeos img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.clubes__bg{
+    background-color: #581b1b;
+}
+
+.clubes{
+    color: white;
+}
+
+.clubes h3{
+    display: flex;
+    justify-content: center;
+}
+
+.clubes img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.seccion__fcb{
+    margin-bottom: 1px;
+}
+
+.galeria{
+    padding: 0;
 }
