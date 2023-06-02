@@ -1,0 +1,39 @@
+.cards{
+  background-color: #0a530a;
+  box-sizing: border-box;
+}
+
+.vid1{
+  grid-area: vid1;
+  height: 100%;
+}
+
+.imagen-multi{
+  grid-area: img;
+}
+
+.vid2{
+  grid-area: vid2;
+  height: 100%;
+}
+
+.multimedia div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media(min-width: 576px){
+  .multimedia{
+      display: grid;
+      grid-template-areas: 
+      "vid1 img vid2";
+      grid-template-rows: 100%; 
+      grid-template-columns: 33% 33% 33%;
+      padding: 0;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      max-width: fit-content;
+  }
+}

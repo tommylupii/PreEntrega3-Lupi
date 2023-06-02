@@ -1,0 +1,157 @@
+svg {
+  fill: rgba(0, 0, 0, 0.65);
+}
+
+.img {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  max-width: fit-content;
+}
+
+nav {
+  background-color: red;
+}
+
+.header {
+  padding: 0;
+}
+
+.messi {
+  background-color: goldenrod;
+}
+
+.footer__images {
+  padding: 1rem;
+  height: 100%;
+}
+
+.footer__logos {
+  height: 50px;
+  width: 50px;
+}
+
+.seccion-cys {
+  border: solid 2px;
+}
+
+.carrera__bg {
+  background-color: #4e832f;
+}
+
+.carrera p:last-of-type {
+  margin-bottom: 0;
+}
+
+.carrera img, iframe {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 0;
+}
+
+@media (min-width: 576px) {
+  .carrera img, iframe, p {
+    margin: 0;
+  }
+}
+.maps {
+  height: 300px;
+}
+
+.trofeos__bg {
+  background-color: #169ce9;
+}
+
+.trofeos img {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.trofeos h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.clubes__bg {
+  background-color: #581b1b;
+}
+
+.clubes {
+  color: white;
+}
+
+.clubes h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.clubes img {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.seccion__fcb {
+  margin-bottom: 1px;
+}
+
+.footer__images {
+  padding: 1rem;
+  height: 100%;
+}
+
+.footer__logos {
+  height: 50px;
+  width: 50px;
+}
+
+.galeria {
+  padding: 0;
+}
+
+.cards {
+  background-color: #0a530a;
+  box-sizing: border-box;
+}
+
+.vid1 {
+  grid-area: vid1;
+  height: 100%;
+}
+
+.imagen-multi {
+  grid-area: img;
+}
+
+.vid2 {
+  grid-area: vid2;
+  height: 100%;
+}
+
+.multimedia div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .multimedia {
+    display: grid;
+    grid-template-areas: "vid1 img vid2";
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
