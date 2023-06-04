@@ -2,16 +2,6 @@
   background-color: goldenrod;
 }
 
-.footer__images{
-  padding: 1rem;
-  height: 100%;
-}
-
-.footer__logos{
-  height: 50px;
-  width: 50px;
-}
-
 .seccion-cys{
   border: solid 2px;
 }
@@ -20,15 +10,16 @@
   background-color: #4e832f;
 }
 
-.carrera p:last-of-type{
-  margin-bottom: 0;
-}
-
-.carrera img, iframe{
-  width: 100%;
-  height: auto;
-  margin: 5px;
-  margin-left: 0;
+.carrera{
+  p:last-of-type{
+    margin-bottom: 0;
+  }
+  img, iframe{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+  }
 }
 
 @media(min-width: 576px){
@@ -45,16 +36,17 @@
   background-color: #169ce9;
 }
 
-.trofeos img{
-  width: 100%;
-  height: auto;
-  margin: 5px;
-  margin-left: 0;
-}
-
-.trofeos h3{
-  margin-top: 5px;
-  margin-bottom: 5px;
+.trofeos{
+  img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+  }
+  h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
 .clubes__bg{
@@ -63,18 +55,16 @@
 
 .clubes{
   color: white;
-}
-
-.clubes h3{
-  display: flex;
-  justify-content: center;
-}
-
-.clubes img{
-  width: 100%;
-  height: auto;
-  margin: 5px;
-  margin-left: 0;
+  h3{
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+  }
 }
 
 .seccion__fcb{

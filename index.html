@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Vida del Fútbol</title>
+		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <!-- Boostrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -45,9 +46,9 @@
 								Biografías
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">bio1</a></li>
-								<li><a class="dropdown-item" href="#">bio2</a></li>
-								<li><a class="dropdown-item" href="#">bio3</a></li>
+								<li><a class="dropdown-item" href="pages/messi/lionel_messi.html">Biografia #1</a></li>
+								<li><a class="dropdown-item" href="#">Biografia #2</a></li>
+								<li><a class="dropdown-item" href="#">Biografia #3</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -62,7 +63,7 @@
 		</nav>
 
 		<!-- Multimedia -->
-		<div class="multimedia container">
+		<div class="multimedia ">
 			<iframe class="vid1" src="https://www.youtube.com/embed/-bS2RhP0w7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			<img class="imagen-multi img-fluid" src="assets/img/header_img.png" alt="imagen del header">
 			<iframe class="vid2" src="https://www.youtube.com/embed/4v-rIjHpyEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -88,33 +89,35 @@
 
 		<!-- Cards -->
 		<div class="container-fluid cards">
-			<div class="col-sm-4 mb-sm-0 p-3">
-				<div class="card">
-					<img src="assets/img/maradona_card.jpg" alt="Diego Maradona">
-					<div class="card-body">
-						<h5 class="card-title">Diego Maradona</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
-						<a href="#" class="btn btn-primary">Ir</a>
+			<div class="row">
+				<div class="col-12 col-sm-4 mb-sm-0 p-3">
+					<div class="card">
+						<img src="assets/img/maradona_card.jpg" alt="Diego Maradona">
+						<div class="card-body">
+							<h5 class="card-title">Diego Maradona</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
+							<a href="#" class="btn btn-primary">Ir</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-4 mb-sm-0 p-3">
-				<div class="card">
-					<img src="assets/img/messi_card.jpg" alt="Lionel Messi">
-					<div class="card-body">
-						<h5 class="card-title">Lionel Messi</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
-						<a href="lionel_messi.html" class="btn btn-primary">Ir</a>
+				<div class="col-12 col-sm-4 mb-sm-0 p-3">
+					<div class="card">
+						<img src="assets/img/messi_card.jpg" alt="Lionel Messi">
+						<div class="card-body">
+							<h5 class="card-title">Lionel Messi</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
+							<a href="lionel_messi.html" class="btn btn-primary">Ir</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-4 mb-sm-0 p-3">
-				<div class="card">
-					<img src="assets/img/ronaldo_card.jpg" alt="Cristiano Ronaldo">
-					<div class="card-body">
-						<h5 class="card-title">Cristiano Ronaldo</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
-						<a href="#" class="btn btn-primary">Ir</a>
+				<div class="col-12 col-sm-4 mb-sm-0 p-3">
+					<div class="card">
+						<img src="assets/img/ronaldo_card.jpg" alt="Cristiano Ronaldo">
+						<div class="card-body">
+							<h5 class="card-title">Cristiano Ronaldo</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, impedit?</p>
+							<a href="#" class="btn btn-primary">Ir</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -126,14 +129,11 @@
 		<div class="container d-flex flex-column justify-content-center align-items-center my-2">
 			<h2>La Vida del Fútbol</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quos soluta nemo sit temporibus ex rerum aut culpa ipsum delectus, sequi eius, iure vero autem obcaecati ducimus esse, illum accusantium.</p>
-		</div>
-		<div class="container-fluid d-flex flex-column justify-content-center">
-			<img class="footer__images img-fluid" src="assets/img/maradona_footer.jpg" alt="Diego Maradona">
 			<img class="img-fluid footer__images d-flex flex-column justify-content-center align-items-center" src="assets/img/messi_footer.jpg" alt="Lionel Messi">
-		</div>			
+		</div>		
 	</section>
 	<footer>
-		<div class="container d-flex flex_row justify-content-start align-items-center column-gap-3">
+		<div class="d-flex align-items-center mx-2">
 			<div>
 				<a class="navbar-brand" href="index.html">
 					<img src="assets/img/logo.png" alt="logo">
@@ -141,16 +141,17 @@
 				</a>
 			</div>
 			<div>
-				<a class="d-flex flex_row footer__logos" href="#">
+				<div class="d-flex flex-row footer__logos">
 					<img class="img-fluid " src="assets/img/ig_logo.svg" alt="Instagram">
 					<img class="img-fluid" src="assets/img/yt_logo.svg" alt="Youtube">
 					<img class="img-fluid" src="assets/img/tiktok_logo.svg" alt="TikTok">
 					<img class="img-fluid" src="assets/img/twitter_logo.svg" alt="Twitter">
-				</a>
+				</div>
 			</div>
 		</div>
 	</footer>
     
-    <script src="js/bootstrap.bundle.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
