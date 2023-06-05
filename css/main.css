@@ -30,7 +30,7 @@ svg {
 .carrera p:last-of-type {
   margin-bottom: 0;
 }
-.carrera img, .carrera iframe {
+.carrera img {
   width: 100%;
   height: auto;
   margin: 5px;
@@ -42,10 +42,6 @@ svg {
     margin: 0;
   }
 }
-.maps {
-  height: 300px;
-}
-
 .trofeos__bg {
   background-color: #169ce9;
 }

@@ -14,7 +14,7 @@
   p:last-of-type{
     margin-bottom: 0;
   }
-  img, iframe{
+  img{
     width: 100%;
     height: auto;
     margin: 5px;
@@ -26,10 +26,6 @@
   .carrera img, iframe, p{
       margin: 0;
   }
-}
-
-.maps{
-  height: 300px;
 }
 
 .trofeos__bg{
